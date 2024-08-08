@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 448e154c4aeb0e649a83eeb0f82399ba, type: 3}
+  m_Name: LevelSystem
+  m_EditorClassIdentifier: 
+  levels:
+  - levelName: City
+    levelContent: Have a walk along the busiest street in Johor - The Jalan Wong
+      Ah Fook in Johor Bahru. Enjoy the city view, and start the first step of reporting
+      illegal behaviours!
+    levelImage: {fileID: 21300000, guid: 6bdf62b33d77124468af90369a3aea79, type: 3}
+    sceneName: City
+    targetScore: 0
+    currentLevelScore: 0
+  - levelName: Rainforest
+    levelContent: "Have you been to the ancient tropical rainforest of Endau-Rompin
+      Johor National Park? Away from the crowdness, take a deep breath, and\u2026
+      Wait, what are those guys doing?"
+    levelImage: {fileID: 0}
+    sceneName: Rainforest
+    targetScore: 6
+    currentLevelScore: 0
+  - levelName: Harbour
+    levelContent: The breeze from the harbor are always refreshing, and this is especially
+      true for Puteri Harbour in Nsajaya, but it seems that some people are trying
+      to stain it in the corners.
+    levelImage: {fileID: 0}
+    sceneName: Harbour
+    targetScore: 10
+    currentLevelScore: 0
+  - levelName: Town
+    levelContent: As a small town in Johor, Kota Masai is quiet and peaceful with
+      lots of trees covering the sky, while some people are trying to use them to
+      cover crimes.
+    levelImage: {fileID: 0}
+    sceneName: Town
+    targetScore: 13
+    currentLevelScore: 0
+  - levelName: Countryside
+    levelContent: Calm down at Batu Pahat, our final stop, enjoy the beauty of nature,
+      and protect it.
+    levelImage: {fileID: 0}
+    sceneName: Town
+    targetScore: 15
+    currentLevelScore: 0
+  defaultLevelIndex: 0
+  currentTotalScore: 0

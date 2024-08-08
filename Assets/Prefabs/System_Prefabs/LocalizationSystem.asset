@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeb6d8db317a03f40a2ae37c4577f698, type: 3}
+  m_Name: LocalizationSystem
+  m_EditorClassIdentifier: 
+  filePath: Localization.xlsx
+  language: en_gb
+  defaultEnglishFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  defaultChineseFont: {fileID: 11400000, guid: d9aef9c60c1b648439c4efe69f3c5077, type: 2}
+  headerEnglishFont: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  headerChineseFont: {fileID: 11400000, guid: 9447403c0b52f2a45b63ed22cc6d1b3d, type: 2}
+  bodyEnglishFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  bodyChineseFont: {fileID: 11400000, guid: d9aef9c60c1b648439c4efe69f3c5077, type: 2}
+  descriptionEnglishFont: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  descriptionChineseFont: {fileID: 11400000, guid: 9447403c0b52f2a45b63ed22cc6d1b3d, type: 2}

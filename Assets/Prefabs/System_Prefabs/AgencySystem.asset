@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68d71c4a5eeb375499c6bf1a62437011, type: 3}
+  m_Name: AgencySystem
+  m_EditorClassIdentifier: 
+  agencies:
+  - agencyName: Department of Environment
+    agencyDescription: "\u201CEnvironment, Shared Responsibility\u201D"
+    abbreviation: DoB
+  - agencyName: Fire and Rescue Department
+    agencyDescription: 'Firefighting and Technical Rescue. '
+    abbreviation: Bomba
+  - agencyName: Forestry Department
+    agencyDescription: Management, planning, protection and development of the Permanent
+      Reserved Forests.
+    abbreviation: JPSM
+  - agencyName: Department of Fisheries
+    agencyDescription: To manage the national fishery resources, and be the leader
+      in the transformation of a sustainable and competitive fishery.
+    abbreviation: DoF
+  - agencyName: Marine Department
+    agencyDescription: '"Safer Ships, Secure Ports, Cleaner Seas"'
+    abbreviation: JLM
+  - agencyName: Department of Wildlife and National Parks
+    agencyDescription: 'To strengthen wildlife conservation programmes through management,
+      enforcement, enrichment and research of wildlife. '
+    abbreviation: PERHILITAN
