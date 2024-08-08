@@ -2,14 +2,14 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed = 5f; // Player movement speed
-    public float rotationSpeed = 100f; // Rotation speed
-    public Transform cameraTransform; // Camera Transform
-    public float gravity = -9.81f; // Gravity
+    public float moveSpeed = 5f;
+    public float rotationSpeed = 100f;
+    public Transform cameraTransform;
+    public float gravity = -9.81f;
 
     private CharacterController characterController;
     private Vector3 moveDirection = Vector3.zero;
-    private float currentYRotation = 0f; // Current Y-axis rotation angle
+    private float currentYRotation = 0f;
     private float verticalVelocity = 0f;
 
     void Start()
@@ -20,8 +20,7 @@ public class PlayerController : MonoBehaviour
             characterController = gameObject.AddComponent<CharacterController>();
         }
 
-        Cursor.lockState = CursorLockMode.None; // Unlock cursor
-        cameraTransform.localRotation = Quaternion.Euler(0f, 90f, 0f); // Set camera default angle Y=90
+        cameraTransform.localRotation = Quaternion.Euler(0f, 90f, 0f);
         currentYRotation = transform.eulerAngles.y;
     }
 
@@ -46,7 +45,7 @@ public class PlayerController : MonoBehaviour
         }
 
         currentYRotation += rotateY;
-        currentYRotation = Mathf.Clamp(currentYRotation, -90f, 90f); // Limit rotation angle between -90 and 90 degrees
+        currentYRotation = Mathf.Clamp(currentYRotation, -120f, 120f);
 
         transform.rotation = Quaternion.Euler(0, currentYRotation, 0);
     }
@@ -56,18 +55,15 @@ public class PlayerController : MonoBehaviour
         float moveX = Input.GetAxis("Horizontal");
         float moveZ = Input.GetAxis("Vertical");
 
-        // Get camera forward and right direction
         Vector3 forward = cameraTransform.forward;
         Vector3 right = cameraTransform.right;
 
-        // Ignore Y axis direction
         forward.y = 0f;
         right.y = 0f;
 
         forward.Normalize();
         right.Normalize();
 
-        // Calculate movement direction based on camera direction
         moveDirection = (forward * moveZ + right * moveX).normalized * moveSpeed;
     }
 
