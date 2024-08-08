@@ -11,4 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/City.unity
     guid: b5d7b7f10ab1ba342889a7b60ace4d67
+  - enabled: 1
+    path: Assets/Scenes/Rainforest.unity
+    guid: 8e55de04aa20f0f4e8d5971689da2938
+  - enabled: 1
+    path: Assets/Scenes/Harbour.unity
+    guid: 5a661f59a404c2443a53b9e108bd9cca
+  - enabled: 1
+    path: Assets/Scenes/Town.unity
+    guid: 5bc59d11489914e47b0aa301f1b0c9f9
+  - enabled: 1
+    path: Assets/Scenes/Countryside.unity
+    guid: f1c7b2609aa118343ae50c7f3ac14f5a
   m_configObjects: {}

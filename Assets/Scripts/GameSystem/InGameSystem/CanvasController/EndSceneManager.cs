@@ -77,6 +77,7 @@ public class EndSceneManager : MonoBehaviour
     {
         string currentSceneName = SceneManager.GetActiveScene().name;
         levelSystem.currentTotalScore = 0;
+        Time.timeScale = 1;
         SceneManager.LoadScene(currentSceneName);
     }
 }
