@@ -7,6 +7,8 @@ using System.Collections;
 public class LeveltoStart : MonoBehaviour
 {
     public Button returnButton;
+    public Button quitButton;
+    public LevelSystem levelSystem;
     public Animator animator;
 
     void Start()
@@ -14,6 +16,8 @@ public class LeveltoStart : MonoBehaviour
         if (returnButton != null)
         {
             returnButton.onClick.AddListener(OnReturnButtonClicked);
+            quitButton.onClick.AddListener(OnQuitButtonClicked);
+
         }
     }
 
@@ -22,16 +26,47 @@ public class LeveltoStart : MonoBehaviour
         StartCoroutine(ReturnToStartScene());
     }
 
+    private void OnQuitButtonClicked()
+    {
+        ResetCurrentLevelScore();
+        StartCoroutine(ReturnToStartScene());
+    }
+
+    private void ResetCurrentLevelScore()
+    {
+        int currentLevelIndex = GetCurrentLevelIndex();
+        if (currentLevelIndex >= 0 && currentLevelIndex < levelSystem.levels.Count)
+        {
+            levelSystem.currentTotalScore -= levelSystem.levels[currentLevelIndex].currentLevelScore;
+
+            levelSystem.levels[currentLevelIndex].currentLevelScore = 0;
+        }
+    }
+
+    private int GetCurrentLevelIndex()
+    {
+        string currentSceneName = SceneManager.GetActiveScene().name;
+        for (int i = 0; i < levelSystem.levels.Count; i++)
+        {
+            if (levelSystem.levels[i].sceneName == currentSceneName)
+            {
+                return i;
+            }
+        }
+        Debug.LogError("Current level index not found!");
+        return -1;
+    }
+
     IEnumerator ReturnToStartScene()
     {
         if (animator != null)
         {
             animator.enabled = true;
-            animator.Play("Fade_Out");
+            animator.Play("Fade_In");
 
             yield return new WaitForSeconds(1);
         }
 
-        SceneManager.LoadScene("Start");
+        SceneManager.LoadScene(0);
     }
 }

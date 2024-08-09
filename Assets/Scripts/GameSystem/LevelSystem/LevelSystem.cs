@@ -28,16 +28,6 @@ public class LevelSystem : ScriptableObject
         return null;
     }
 
-    /*public int GetTargetScore()
-    {
-        int totalTargetScore = 0;
-        foreach (var level in levels)
-        {
-            totalTargetScore += level.targetScore;
-        }
-        return totalTargetScore;
-    }*/
-
     public int GetNextLevelTargetScore(int currentLevelIndex)
     {
         if (currentLevelIndex < 0 || currentLevelIndex >= levels.Count - 1)

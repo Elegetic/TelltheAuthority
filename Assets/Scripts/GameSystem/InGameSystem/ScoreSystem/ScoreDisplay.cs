@@ -71,6 +71,7 @@ public class ScoreDisplay : MonoBehaviour
             if (currentTotalScore != previousTotalScore)
             {
                 int scoreDifference = currentTotalScore - previousTotalScore;
+
                 if (scoreDifference == 1)
                 {
                     StartCoroutine(ShowScoreChangeCoroutine(yellowColor, partialScoreUpClip));
@@ -84,7 +85,8 @@ public class ScoreDisplay : MonoBehaviour
                     if (consecutiveTwoPoints >= 2)
                     {
                         StartCoroutine(ShowBonusImageCoroutine());
-                        consecutiveTwoPoints = 0;
+                        levelSystem.levels[currentLevelIndex].currentLevelScore += 1;
+                        levelSystem.currentTotalScore += 1;
                     }
                 }
                 else
