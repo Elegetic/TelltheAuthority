@@ -1,77 +1,53 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
-    public static ScoreManager Instance;
-
-    private int currentScore;
-    private int targetScore;
-    public Text scoreText;
-    public Text resultText;
-    public GameObject nextLevelButton;
-    public GameObject retryButton;
-    public GameObject completePanel;
-
-    void Awake()
-    {
-        if (Instance == null)
-        {
-            Instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
+    public LevelSystem levelSystem;
 
     void Start()
     {
-        currentScore = 0;
-        UpdateScoreUI();
+        LoadGameData();
     }
 
-    public void SetTargetScore(int score)
+    void OnApplicationQuit()
     {
-        targetScore = score;
+        SaveGameData();
     }
 
-    public void AddScore(int score)
+    public void SaveGameData()
     {
-        currentScore += score;
-        UpdateScoreUI();
-    }
+        PlayerPrefs.SetInt("CurrentTotalScore", levelSystem.currentTotalScore);
 
-    public void SubtractScore(int score)
-    {
-        currentScore -= score;
-        UpdateScoreUI();
-    }
-
-    void UpdateScoreUI()
-    {
-        scoreText.text = "Score: " + currentScore;
-    }
-
-    public void CompleteLevel()
-    {
-        completePanel.SetActive(true);
-        resultText.text = "Your Score: " + currentScore;
-        if (currentScore >= targetScore)
+        for (int i = 0; i < levelSystem.levels.Count; i++)
         {
-            nextLevelButton.SetActive(true);
-            retryButton.SetActive(false);
+            string key = "LevelScore_" + i;
+            PlayerPrefs.SetInt(key, levelSystem.levels[i].currentLevelScore);
         }
-        else
+
+        PlayerPrefs.Save();
+    }
+
+    public void LoadGameData()
+    {
+        levelSystem.currentTotalScore = PlayerPrefs.GetInt("CurrentTotalScore", 0);
+
+        for (int i = 0; i < levelSystem.levels.Count; i++)
         {
-            nextLevelButton.SetActive(false);
-            retryButton.SetActive(true);
+            string key = "LevelScore_" + i;
+            levelSystem.levels[i].currentLevelScore = PlayerPrefs.GetInt(key, 0);
         }
     }
 
-    public void SkipLevel()
+    public void ClearGameData()
     {
-        currentScore = targetScore;
-        CompleteLevel();
+        PlayerPrefs.DeleteKey("CurrentTotalScore");
+
+        for (int i = 0; i < levelSystem.levels.Count; i++)
+        {
+            string key = "LevelScore_" + i;
+            PlayerPrefs.DeleteKey(key);
+        }
+
+        PlayerPrefs.Save();
     }
 }

@@ -76,6 +76,8 @@ public class LevelManager : MonoBehaviour
 
     private void OnLevelButtonClicked(int index)
     {
+        ClearLevelScore(index);
+
         currentLevelIndex = index;
         UpdateLevelUI(index);
     }
@@ -90,6 +92,17 @@ public class LevelManager : MonoBehaviour
         else
         {
             Debug.LogError("Scene name is not set for the selected level.");
+        }
+    }
+
+    private void ClearLevelScore(int index)
+    {
+        LevelSystem.LevelData levelData = levelSystem.GetLevelData(index);
+        if (levelData != null)
+        {
+            levelSystem.currentTotalScore -= levelData.currentLevelScore;
+
+            levelData.currentLevelScore = 0;
         }
     }
 
