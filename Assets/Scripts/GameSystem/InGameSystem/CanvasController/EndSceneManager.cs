@@ -15,18 +15,25 @@ public class EndSceneManager : MonoBehaviour
     void Start()
     {
         currentLevelIndex = GetCurrentLevelIndex();
-
         ShowFinalScore();
 
-        if (levelSystem.CanUnlockNextLevel(currentLevelIndex))
-        {
-            actionButtonText.text = "NEXT LEVEL";
-            actionButton.onClick.AddListener(GoToNextLevel);
-        }
-        else
+        if (SceneManager.GetActiveScene().name == "Countryside")
         {
             actionButtonText.text = "RESTART LEVEL";
             actionButton.onClick.AddListener(RetryLevel);
+        }
+        else
+        {
+            if (levelSystem.CanUnlockNextLevel(currentLevelIndex))
+            {
+                actionButtonText.text = "NEXT LEVEL";
+                actionButton.onClick.AddListener(GoToNextLevel);
+            }
+            else
+            {
+                actionButtonText.text = "RESTART LEVEL";
+                actionButton.onClick.AddListener(RetryLevel);
+            }
         }
     }
     private int GetCurrentLevelIndex()
@@ -60,6 +67,7 @@ public class EndSceneManager : MonoBehaviour
             string nextSceneName = levelSystem.levels[nextLevelIndex].sceneName;
             if (!string.IsNullOrEmpty(nextSceneName))
             {
+                Time.timeScale = 1;
                 SceneManager.LoadScene(nextSceneName);
             }
             else

@@ -1,0 +1,300 @@
+{
+"Sheet1":[
+ {
+  "EN_GB": "-------------------------------------",
+  "ZH_CN": "-------------------------------------"
+ },
+ {
+  "EN_GB": "START",
+  "ZH_CN": "开始游戏"
+ },
+ {
+  "EN_GB": "OPTIONS",
+  "ZH_CN": "设置"
+ },
+ {
+  "EN_GB": "INSTRUCTIONS",
+  "ZH_CN": "操作引导"
+ },
+ {
+  "EN_GB": "CREDITS",
+  "ZH_CN": "致谢"
+ },
+ {
+  "EN_GB": "Camera View Movement",
+  "ZH_CN": "镜头视角移动"
+ },
+ {
+  "EN_GB": "Interaction",
+  "ZH_CN": "交互"
+ },
+ {
+  "EN_GB": "Run",
+  "ZH_CN": "跑动"
+ },
+ {
+  "EN_GB": "Stop Auto Movement",
+  "ZH_CN": "停止自动移动"
+ },
+ {
+  "EN_GB": "Manual Movement",
+  "ZH_CN": "手动移动"
+ },
+ {
+  "EN_GB": "Report",
+  "ZH_CN": "报告"
+ },
+ {
+  "EN_GB": "Pause",
+  "ZH_CN": "暂停"
+ },
+ {
+  "EN_GB": "BACK",
+  "ZH_CN": "返回"
+ },
+ {
+  "EN_GB": "Language",
+  "ZH_CN": "语言"
+ },
+ {
+  "EN_GB": "Music",
+  "ZH_CN": "音乐"
+ },
+ {
+  "EN_GB": "SoundFX",
+  "ZH_CN": "音效"
+ },
+ {
+  "EN_GB": "-------------------------------------",
+  "ZH_CN": "-------------------------------------"
+ },
+ {
+  "EN_GB": "Quit Level?",
+  "ZH_CN": "退出关卡？"
+ },
+ {
+  "EN_GB": "Are you sure you want to quit the current level and return to the main menu? \n\nAll progress of this level will <b>NOT<\/b> be saved. ",
+  "ZH_CN": "你确定要退出当前关卡，返回主菜单吗？\n\n当前关卡的所有进度都<b>不会<\/b>被保存。"
+ },
+ {
+  "EN_GB": "Return to Title",
+  "ZH_CN": "返回到标题"
+ },
+ {
+  "EN_GB": "Save & Return",
+  "ZH_CN": "保存并返回"
+ },
+ {
+  "EN_GB": "Quit Level",
+  "ZH_CN": "退出关卡"
+ },
+ {
+  "EN_GB": "Back",
+  "ZH_CN": "返回"
+ },
+ {
+  "EN_GB": "HOME",
+  "ZH_CN": "首页"
+ },
+ {
+    "EN_GB": "LEVEL COMPLETED! ",
+    "ZH_CN": "关卡完成！"
+ },
+ {
+   "EN_GB": "CURRENT TOTAL SCORE: ",
+   "ZH_CN": "当前总分："
+ },
+ {
+    "EN_GB": "RESTART LEVEL",
+    "ZH_CN": "重玩本关"
+ },
+ {
+    "EN_GB": "BACK TO TITLE",
+    "ZH_CN": "返回标题"
+ },
+ {
+  "EN_GB": "-------------------------------------",
+  "ZH_CN": "-------------------------------------"
+ },
+ {
+  "EN_GB": "City",
+  "ZH_CN": "都市"
+ },
+ {
+  "EN_GB": "Rainforest",
+  "ZH_CN": "雨林"
+ },
+ {
+  "EN_GB": "Harbour",
+  "ZH_CN": "港口"
+ },
+ {
+  "EN_GB": "Town",
+  "ZH_CN": "小镇"
+ },
+ {
+  "EN_GB": "Countryside",
+  "ZH_CN": "郊外"
+ },
+ {
+  "EN_GB": "LEVEL LOCKED",
+  "ZH_CN": "关卡未解锁"
+ },
+ {
+  "EN_GB": "LEVEL 1 CITY",
+  "ZH_CN": "I 都市"
+ },
+ {
+  "EN_GB": "LEVEL 2 RAINFOREST",
+  "ZH_CN": "II 雨林"
+ },
+ {
+  "EN_GB": "LEVEL 3 HARBOUR",
+  "ZH_CN": "III 港口"
+ },
+ {
+  "EN_GB": "LEVEL 4 TOWN",
+  "ZH_CN": "IV 小镇"
+ },
+ {
+  "EN_GB": "LEVEL 5 COUNTRYSIDE",
+  "ZH_CN": "V 郊外"
+ },
+ {
+  "EN_GB": "Have a walk along the busiest street in Johor - The Jalan Wong Ah Fook in Johor Bahru. Enjoy the city view, and start the first step of reporting illegal behaviours!",
+  "ZH_CN": "沿着柔佛州最热闹的街道——新山市的黄亚福街漫步。享受城市美景，并开始举报非法行为的第一步！"
+ },
+ {
+  "EN_GB": "Have you been to the ancient tropical rainforest of Endau-Rompin Johor National Park? Away from the crowdness, take a deep breath, and… Wait, what are those guys doing?",
+  "ZH_CN": "你去过柔佛州兴楼云冰国家公园中的古老热带雨林吗？远离喧嚣，深呼吸，然后……等等，那些人在做什么？"
+ },
+ {
+  "EN_GB": "The breeze from the harbor are always refreshing, and this is especially true for Puteri Harbour in Nsajaya, but it seems that some people are trying to stain it in the corners.",
+  "ZH_CN": "海港的微风总是能使人心旷神怡，位于努沙再也的公主港更是如此，但似乎有人试图在角落将它染上污渍。"
+ },
+ {
+  "EN_GB": "As a small town in Johor, Kota Masai is quiet and peaceful with lots of trees covering the sky, while some people are trying to use them to cover crimes.",
+  "ZH_CN": "作为位于柔佛州的一个小镇，宁静祥和的马赛城被郁郁葱葱的树木遮盖了天空，而有人在试图用它们遮盖罪行。"
+ },
+ {
+  "EN_GB": "Calm down at Batu Pahat, our final stop, enjoy the beauty of nature, and protect it.",
+  "ZH_CN": "在我们旅途的终点峇株巴辖静下心，享受自然之美，并守护它。"
+ },
+ {
+  "EN_GB": "-------------------------------------",
+  "ZH_CN": "-------------------------------------"
+ },
+ {
+  "EN_GB": "If illegal, Press \"R\" to Report! ",
+  "ZH_CN": "如果违法，按\"R\"举报！"
+ },
+ {
+  "EN_GB": "REPORT",
+  "ZH_CN": "举报"
+ },
+ {
+  "EN_GB": "CANCEL",
+  "ZH_CN": "取消"
+ },
+ {
+  "EN_GB": "Department of Environment",
+  "ZH_CN": "环境局"
+ },
+ {
+  "EN_GB": "“Environment, Shared Responsibility”",
+  "ZH_CN": "“环境，共同的责任。”"
+ },
+ {
+  "EN_GB": "Fire and Rescue Department",
+  "ZH_CN": "消防与拯救局"
+ },
+ {
+  "EN_GB": "Firefighting and Technical Rescue. ",
+  "ZH_CN": "救火与技术性救援。"
+ },
+ {
+  "EN_GB": "Forestry Department",
+  "ZH_CN": "林业局"
+ },
+ {
+  "EN_GB": "Management, planning, protection and development of the Permanent Reserved Forests.",
+  "ZH_CN": "对于永久保留林的管理、规划、保护和发展。"
+ },
+ {
+  "EN_GB": "Department of Fisheries",
+  "ZH_CN": "渔业局"
+ },
+ {
+  "EN_GB": "To manage the national fishery resources, and be the leader in the transformation of a sustainable and competitive fishery.",
+  "ZH_CN": "管理国家渔业资源，成为可持续和有竞争力的渔业转型的领导者。"
+ },
+ {
+  "EN_GB": "Marine Department",
+  "ZH_CN": "海事局"
+ },
+ {
+  "EN_GB": "\"Safer Ships, Secure Ports, Cleaner Seas\"",
+  "ZH_CN": "“更安全的船，更安全的港口，更干净的海洋。”"
+ },
+ {
+  "EN_GB": "Department of Wildlife and National Parks",
+  "ZH_CN": "野生动物保护与国家公园局"
+ },
+ {
+  "EN_GB": "To strengthen wildlife conservation programmes through management, enforcement, enrichment and research of wildlife. ",
+  "ZH_CN": "通过管理、执法、改善和研究野生动物，加强野生动物保护计划。"
+ },
+ {
+  "EN_GB": "-------------------------------------",
+  "ZH_CN": "-------------------------------------"
+ },
+ {
+  "EN_GB": "CURRENT SCORE",
+  "ZH_CN": "当前分数"
+ },
+ {
+  "EN_GB": "TARGET SCORE",
+  "ZH_CN": "目标分数"
+ },
+ {
+  "EN_GB": "REPORT STATUS",
+  "ZH_CN": "举报状态"
+ },
+ {
+  "EN_GB": "REPORT AUTHORITY",
+  "ZH_CN": "举报机构"
+ },
+ {
+  "EN_GB": "SCORE CHANGE",
+  "ZH_CN": "分数变化"
+ },
+ {
+  "EN_GB": "NOT CRIMINAL",
+  "ZH_CN": "未犯罪"
+ },
+ {
+  "EN_GB": "CRIMINAL",
+  "ZH_CN": "犯罪"
+ },
+ {
+  "EN_GB": "WRONG",
+  "ZH_CN": "错误"
+ },
+ {
+  "EN_GB": "CORRECT",
+  "ZH_CN": "正确"
+ },
+ {
+  "EN_GB": "COMBO BONUS",
+  "ZH_CN": "连对加分"
+ },
+ {
+  "EN_GB": "CURRENT SCORES",
+  "ZH_CN": "分数纪录"
+ },
+ {
+  "EN_GB": "CURRENT TOTAL",
+  "ZH_CN": "当前总分"
+ }
+]
+}

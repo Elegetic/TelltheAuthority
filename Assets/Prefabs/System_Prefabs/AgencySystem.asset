@@ -15,7 +15,7 @@ MonoBehaviour:
   agencies:
   - agencyName: Department of Environment
     agencyDescription: "\u201CEnvironment, Shared Responsibility\u201D"
-    abbreviation: DoB
+    abbreviation: DoE
   - agencyName: Fire and Rescue Department
     agencyDescription: 'Firefighting and Technical Rescue. '
     abbreviation: Bomba

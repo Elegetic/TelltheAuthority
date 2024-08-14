@@ -752,9 +752,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Design/Art/Programme: Yupeng Mao\nMusic: MAOU Audio\nSound Effects: Ear0,
-    Duolingo\nSoftware: Photoshop, Unity, Blender\nFont: LiberationSans, Roboto,
-    SourceHansCN\n\nGame for Newcastle University\nMSc Computer Game Engineering
+  m_text: "Design/Programme: Yupeng Mao\nImage Source: Irasutoya\nMusic: MAOU Audio\nSound
+    Effects: Ear0, Duolingo\nSoftware: Photoshop, Unity, Blender\nFont: LiberationSans,
+    Roboto, SourceHansCN\n\nGame for Newcastle University\nMSc Computer Game Engineering
     dissertation. \n\nThanks for your playing. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4250,7 +4250,6 @@ GameObject:
   - component: {fileID: 954962539}
   - component: {fileID: 954962542}
   - component: {fileID: 954962541}
-  - component: {fileID: 954962540}
   m_Layer: 5
   m_Name: Level4_Score
   m_TagString: Untagged
@@ -4277,20 +4276,6 @@ RectTransform:
   m_AnchoredPosition: {x: -50, y: -90}
   m_SizeDelta: {x: 1300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &954962540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 954962538}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7f3ffd8a21040846a86987fef62e71b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enumFontKey: 2
-  key: 
 --- !u!114 &954962541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5714,7 +5699,6 @@ GameObject:
   - component: {fileID: 1380520401}
   - component: {fileID: 1380520404}
   - component: {fileID: 1380520403}
-  - component: {fileID: 1380520402}
   m_Layer: 5
   m_Name: Level3_Score
   m_TagString: Untagged
@@ -5741,20 +5725,6 @@ RectTransform:
   m_AnchoredPosition: {x: -50, y: 15}
   m_SizeDelta: {x: 1300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1380520402
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1380520400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7f3ffd8a21040846a86987fef62e71b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enumFontKey: 2
-  key: 
 --- !u!114 &1380520403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6920,7 +6890,6 @@ GameObject:
   - component: {fileID: 1591596388}
   - component: {fileID: 1591596391}
   - component: {fileID: 1591596390}
-  - component: {fileID: 1591596389}
   m_Layer: 5
   m_Name: Total _Score
   m_TagString: Untagged
@@ -6947,20 +6916,6 @@ RectTransform:
   m_AnchoredPosition: {x: -50, y: -330}
   m_SizeDelta: {x: 1300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1591596389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1591596387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7f3ffd8a21040846a86987fef62e71b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enumFontKey: 2
-  key: 
 --- !u!114 &1591596390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11903,7 +11858,6 @@ GameObject:
   - component: {fileID: 1645195320}
   - component: {fileID: 1645195323}
   - component: {fileID: 1645195322}
-  - component: {fileID: 1645195321}
   m_Layer: 5
   m_Name: Level2_Score
   m_TagString: Untagged
@@ -11930,20 +11884,6 @@ RectTransform:
   m_AnchoredPosition: {x: -50, y: 120}
   m_SizeDelta: {x: 1300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1645195321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1645195319}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7f3ffd8a21040846a86987fef62e71b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enumFontKey: 2
-  key: 
 --- !u!114 &1645195322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12543,7 +12483,6 @@ GameObject:
   - component: {fileID: 1701665724}
   - component: {fileID: 1701665727}
   - component: {fileID: 1701665726}
-  - component: {fileID: 1701665725}
   m_Layer: 5
   m_Name: Level5_Score
   m_TagString: Untagged
@@ -12570,20 +12509,6 @@ RectTransform:
   m_AnchoredPosition: {x: -50, y: -195}
   m_SizeDelta: {x: 1300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1701665725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1701665723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7f3ffd8a21040846a86987fef62e71b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enumFontKey: 2
-  key: 
 --- !u!114 &1701665726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13136,7 +13061,6 @@ GameObject:
   - component: {fileID: 1831903055}
   - component: {fileID: 1831903058}
   - component: {fileID: 1831903057}
-  - component: {fileID: 1831903056}
   m_Layer: 5
   m_Name: Level1_Score
   m_TagString: Untagged
@@ -13163,20 +13087,6 @@ RectTransform:
   m_AnchoredPosition: {x: -50, y: 225}
   m_SizeDelta: {x: 1300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1831903056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1831903054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7f3ffd8a21040846a86987fef62e71b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enumFontKey: 2
-  key: 
 --- !u!114 &1831903057
 MonoBehaviour:
   m_ObjectHideFlags: 0

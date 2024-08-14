@@ -68,9 +68,20 @@ public class LocalizedText : MonoBehaviour
         }
         else
         {
-            Debug.LogError("UI Text component not found!");
+            string fullPath = GetFullPath(this.gameObject);
+            Debug.LogError("UI Text component not found on gameObject "+fullPath+"!");
         }
     }
 
-    
+    string GetFullPath(GameObject obj)
+    {
+        if (obj.transform.parent == null)
+        {
+            return obj.name;
+        }
+
+        return GetFullPath(obj.transform.parent.gameObject) + "/" + obj.name;
+    }
+
+
 }

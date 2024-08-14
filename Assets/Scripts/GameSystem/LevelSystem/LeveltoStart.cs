@@ -59,14 +59,20 @@ public class LeveltoStart : MonoBehaviour
 
     IEnumerator ReturnToStartScene()
     {
+        //Debug.Log("Coroutine Started! ");
         if (animator != null)
         {
             animator.enabled = true;
             animator.Play("Fade_In");
+            //Debug.Log("Animator Played! ");
 
-            yield return new WaitForSeconds(1);
+            Time.timeScale = 1;
+            SceneManager.LoadScene(0);
         }
-
-        SceneManager.LoadScene(0);
+        else
+        {
+            Debug.Log("Transition Animator is null! ");
+        };
+        yield return new WaitForSeconds(1);
     }
 }

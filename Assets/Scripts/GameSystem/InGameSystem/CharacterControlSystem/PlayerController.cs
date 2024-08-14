@@ -3,14 +3,20 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
+    public float runSpeed = 10f;
     public float rotationSpeed = 100f;
     public Transform cameraTransform;
     public float gravity = -9.81f;
+
+    public AudioSource footstepAudioSource;
+    public AudioClip footstepClip;
 
     private CharacterController characterController;
     private Vector3 moveDirection = Vector3.zero;
     private float currentYRotation = 0f;
     private float verticalVelocity = 0f;
+    private bool isRunning = false;
+    private bool isWalking = false;
 
     void Start()
     {
@@ -22,6 +28,11 @@ public class PlayerController : MonoBehaviour
 
         cameraTransform.localRotation = Quaternion.Euler(0f, 90f, 0f);
         currentYRotation = transform.eulerAngles.y;
+
+        if (footstepAudioSource == null)
+        {
+            Debug.LogError("Footstep Audiosource Not Set.");
+        }
     }
 
     void Update()
@@ -29,6 +40,7 @@ public class PlayerController : MonoBehaviour
         HandleRotation();
         HandleMovementInput();
         ApplyMovement();
+        HandleFootsteps();
     }
 
     void HandleRotation()
@@ -55,6 +67,17 @@ public class PlayerController : MonoBehaviour
         float moveX = Input.GetAxis("Horizontal");
         float moveZ = Input.GetAxis("Vertical");
 
+        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+        {
+            isRunning = true;
+        }
+        else
+        {
+            isRunning = false;
+        }
+
+        float speed = isRunning ? runSpeed : moveSpeed;
+
         Vector3 forward = cameraTransform.forward;
         Vector3 right = cameraTransform.right;
 
@@ -64,7 +87,9 @@ public class PlayerController : MonoBehaviour
         forward.Normalize();
         right.Normalize();
 
-        moveDirection = (forward * moveZ + right * moveX).normalized * moveSpeed;
+        moveDirection = (forward * moveZ + right * moveX).normalized * speed;
+
+        isWalking = (moveX != 0 || moveZ != 0);
     }
 
     void ApplyMovement()
@@ -80,6 +105,26 @@ public class PlayerController : MonoBehaviour
 
         Vector3 velocity = moveDirection + Vector3.up * verticalVelocity;
         characterController.Move(velocity * Time.deltaTime);
+    }
+
+    void HandleFootsteps()
+    {
+        if (isWalking && characterController.isGrounded)
+        {
+            if (!footstepAudioSource.isPlaying)
+            {
+                footstepAudioSource.clip = footstepClip;
+                footstepAudioSource.pitch = isRunning ? 1.5f : 1f;
+                footstepAudioSource.Play();
+            }
+        }
+        else
+        {
+            if (footstepAudioSource.isPlaying)
+            {
+                footstepAudioSource.Pause();
+            }
+        }
     }
 
     void OnCollisionEnter(Collision collision)

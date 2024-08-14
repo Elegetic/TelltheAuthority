@@ -25,7 +25,7 @@ MonoBehaviour:
     levelContent: "Have you been to the ancient tropical rainforest of Endau-Rompin
       Johor National Park? Away from the crowdness, take a deep breath, and\u2026
       Wait, what are those guys doing?"
-    levelImage: {fileID: 0}
+    levelImage: {fileID: 21300000, guid: f867ddeeb4c1e1141924c6358fbe0f83, type: 3}
     sceneName: Rainforest
     targetScore: 6
     currentLevelScore: 0
@@ -33,7 +33,7 @@ MonoBehaviour:
     levelContent: The breeze from the harbor are always refreshing, and this is especially
       true for Puteri Harbour in Nsajaya, but it seems that some people are trying
       to stain it in the corners.
-    levelImage: {fileID: 0}
+    levelImage: {fileID: 21300000, guid: 65419fec34d1e93419467bd327116a86, type: 3}
     sceneName: Harbour
     targetScore: 10
     currentLevelScore: 0
@@ -41,15 +41,15 @@ MonoBehaviour:
     levelContent: As a small town in Johor, Kota Masai is quiet and peaceful with
       lots of trees covering the sky, while some people are trying to use them to
       cover crimes.
-    levelImage: {fileID: 0}
+    levelImage: {fileID: 21300000, guid: c280b5f240ca6b1429f59977ed7e387f, type: 3}
     sceneName: Town
     targetScore: 13
     currentLevelScore: 0
   - levelName: Countryside
     levelContent: Calm down at Batu Pahat, our final stop, enjoy the beauty of nature,
       and protect it.
-    levelImage: {fileID: 0}
-    sceneName: Town
+    levelImage: {fileID: 21300000, guid: 44bf7cdd1a4b0de42826f5be69cbbb3d, type: 3}
+    sceneName: Countryside
     targetScore: 15
     currentLevelScore: 0
   defaultLevelIndex: 0

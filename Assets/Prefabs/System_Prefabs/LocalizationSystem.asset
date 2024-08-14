@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeb6d8db317a03f40a2ae37c4577f698, type: 3}
   m_Name: LocalizationSystem
   m_EditorClassIdentifier: 
-  filePath: Localization.xlsx
-  language: en_gb
+  jsonFilePath: localization
+  language: ZH_CN
   defaultEnglishFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   defaultChineseFont: {fileID: 11400000, guid: d9aef9c60c1b648439c4efe69f3c5077, type: 2}
   headerEnglishFont: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}

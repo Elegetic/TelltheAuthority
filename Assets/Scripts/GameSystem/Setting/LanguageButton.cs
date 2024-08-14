@@ -11,7 +11,7 @@ public class LanguageButton : MonoBehaviour
 
     void Start()
     {
-        zh_cnButton.onClick.AddListener(() => localizationSystem.SetLanguage("zh_cn"));
-        en_gbButton.onClick.AddListener(() => localizationSystem.SetLanguage("en_gb"));
+        zh_cnButton.onClick.AddListener(() => localizationSystem.SetLanguage("ZH_CN"));
+        en_gbButton.onClick.AddListener(() => localizationSystem.SetLanguage("EN_GB"));
     }
 }

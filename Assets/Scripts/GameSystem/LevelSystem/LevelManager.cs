@@ -76,8 +76,6 @@ public class LevelManager : MonoBehaviour
 
     private void OnLevelButtonClicked(int index)
     {
-        ClearLevelScore(index);
-
         currentLevelIndex = index;
         UpdateLevelUI(index);
     }
@@ -87,6 +85,7 @@ public class LevelManager : MonoBehaviour
         LevelSystem.LevelData levelData = levelSystem.GetLevelData(currentLevelIndex);
         if (levelData != null && !string.IsNullOrEmpty(levelData.sceneName))
         {
+            ResetCurrentLevelScore();
             StartCoroutine(LoadScene(levelData.sceneName));
         }
         else
@@ -95,15 +94,14 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    private void ClearLevelScore(int index)
+    private void ResetCurrentLevelScore()
     {
-        LevelSystem.LevelData levelData = levelSystem.GetLevelData(index);
-        if (levelData != null)
-        {
-            levelSystem.currentTotalScore -= levelData.currentLevelScore;
+        int currentLevelScore = levelSystem.levels[currentLevelIndex].currentLevelScore;
 
-            levelData.currentLevelScore = 0;
-        }
+        levelSystem.currentTotalScore -= currentLevelScore;
+        levelSystem.levels[currentLevelIndex].currentLevelScore = 0;
+
+        Debug.Log($"Resetting Level {currentLevelIndex} score. Current total score: {levelSystem.currentTotalScore}");
     }
 
     IEnumerator LoadScene(string index)

@@ -135,6 +135,14 @@ public class ReportSystem : MonoBehaviour
             possibleAgencies.RemoveAt(randomIndex);
         }
 
+        for (int i = 0; i < currentAgencies.Count; i++)
+        {
+            AgencySystem.AgencyData temp = currentAgencies[i];
+            int randomIndex = Random.Range(0, currentAgencies.Count);
+            currentAgencies[i] = currentAgencies[randomIndex];
+            currentAgencies[randomIndex] = temp;
+        }
+
         for (int i = 0; i < agencyButtons.Length; i++)
         {
             if (i < currentAgencies.Count)
@@ -189,15 +197,15 @@ public class ReportSystem : MonoBehaviour
                 localizedDescriptionText.UpdateText();
             }
 
-            Debug.Log("Current Agency Name is: " + agencyNameText.text);
-            Debug.Log("Current Agency Description is: " + agencyDescriptionText.text);
+            //Debug.Log("Current Agency Name is: " + agencyNameText.text);
+            //Debug.Log("Current Agency Description is: " + agencyDescriptionText.text);
         }
         else
         {
             agencyNameText.text = string.Empty;
             agencyDescriptionText.text = string.Empty;
 
-            Debug.Log("Cleared Agency Details.");
+            //Debug.Log("Cleared Agency Details.");
         }
     }
 

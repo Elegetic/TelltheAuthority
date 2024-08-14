@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class ScoreDisplay : MonoBehaviour
 {
@@ -33,6 +34,15 @@ public class ScoreDisplay : MonoBehaviour
 
         originalColor = currentScoreText.color;
         bonusImage.SetActive(false);
+
+        if (SceneManager.GetActiveScene().name == "Countryside")
+        {
+            targetScoreGameObject.SetActive(false);
+        }
+        else
+        {
+            targetScoreGameObject.SetActive(true);
+        }
     }
 
     void Update()

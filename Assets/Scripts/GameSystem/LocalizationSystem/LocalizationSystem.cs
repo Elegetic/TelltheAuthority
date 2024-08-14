@@ -4,15 +4,14 @@ using System.Data;
 using ExcelDataReader;
 using System.IO;
 using TMPro;
-using static Unity.IO.LowLevel.Unsafe.AsyncReadManagerMetrics;
 
 [CreateAssetMenu(fileName = "LocalizationSystem", menuName = "LocalizationSystem")]
 public class LocalizationSystem : ScriptableObject
 {
     public static LocalizationSystem Instance { get; private set; }
 
-    public string filePath = "Localization.xlsx";
-    public string language = "en_gb";
+    public string jsonFilePath = "localization";
+    public string language = "EN_GB";
     private Dictionary<string, string> localizationData = new Dictionary<string, string>();
 
     public TMP_FontAsset defaultEnglishFont;
@@ -26,6 +25,20 @@ public class LocalizationSystem : ScriptableObject
 
     private TMP_FontAsset currentFont;
     private Dictionary<string, TMP_FontAsset> fontMap;
+    //private string filePath = "Assets/Resources/Localization.xlsx";
+
+    [System.Serializable]
+    public class LocalizationEntry
+    {
+        public string EN_GB;
+        public string ZH_CN;
+    }
+
+    [System.Serializable]
+    public class LocalizationData
+    {
+        public List<LocalizationEntry> Sheet1;
+    }
 
     void OnEnable()
     {
@@ -38,23 +51,22 @@ public class LocalizationSystem : ScriptableObject
             Debug.LogWarning("Multiple instances of LocalizationSystem found!");
         }
 
+        InitializeFontMap();
         LoadLocalizationData();
     }
 
-    public void LoadLocalizationData()
+    //Excel sheet load for local
+    /*public void LoadLocalizationData()
     {
         localizationData.Clear();
 
-        string path = Path.Combine(Application.streamingAssetsPath, filePath);
-
-        if (!File.Exists(path))
+        if (!File.Exists(filePath))
         {
-            Debug.LogError("Localization file not found: " + path);
+            Debug.LogError("Localization file not found: " + filePath);
             return;
         }
 
-
-        using (var stream = File.Open(path, FileMode.Open, FileAccess.Read))
+        using (var stream = File.Open(filePath, FileMode.Open, FileAccess.Read))
         {
             using (var reader = ExcelReaderFactory.CreateReader(stream))
             {
@@ -64,7 +76,7 @@ public class LocalizationSystem : ScriptableObject
                     string value = reader.GetString(language == "en_gb" ? 0 : 1);
                     localizationData[key] = value;
 
-                    //Debug.Log($"Key: {key}, Value: {value}");
+                    // Debug.Log($"Key: {key}, Value: {value}");
                 }
             }
         }
@@ -73,9 +85,39 @@ public class LocalizationSystem : ScriptableObject
         //Debug.Log("Localization data loaded.");
     }
 
+    */
+
+    //json load for WebGL
+    public void LoadLocalizationData()
+    {
+        localizationData.Clear();
+
+        TextAsset localizationJson = Resources.Load<TextAsset>(jsonFilePath);
+
+        if (localizationJson == null)
+        {
+            Debug.LogError("Localization JSON file not found in Resources: " + jsonFilePath);
+            return;
+        }
+
+        LocalizationData loadedData = JsonUtility.FromJson<LocalizationData>(localizationJson.text);
+
+        foreach (var entry in loadedData.Sheet1)
+        {
+            if (language == "EN_GB")
+            {
+                localizationData[entry.EN_GB] = entry.EN_GB;
+            }
+            else if (language == "ZH_CN")
+            {
+                localizationData[entry.EN_GB] = entry.ZH_CN;
+            }
+        }
+    }
+
     public void LocalizationInitialize()
     {
-        language = "en_gb";
+        language = "EN_GB";
 
         //Debug.Log("Localization Settings Initialized.");
     }
@@ -91,14 +133,14 @@ public class LocalizationSystem : ScriptableObject
 
         fontMap = new Dictionary<string, TMP_FontAsset>();
 
-        if (language == "en_gb")
+        if (language == "EN_GB")
         {
             fontMap["default"] = defaultEnglishFont;
             fontMap["header"] = headerEnglishFont;
             fontMap["body"] = bodyEnglishFont;
             fontMap["description"] = descriptionEnglishFont;
         }
-        else if (language == "zh_cn")
+        else if (language == "ZH_CN")
         {
             fontMap["default"] = defaultChineseFont;
             fontMap["header"] = headerChineseFont;
@@ -138,6 +180,7 @@ public class LocalizationSystem : ScriptableObject
     {
         language = newLanguage;
         LoadLocalizationData();
+        InitializeFontMap();
 
         Debug.Log("Language changed to " + language);
     }
@@ -159,5 +202,4 @@ public class LocalizationSystem : ScriptableObject
 
         return fontMap.ContainsKey("default") ? fontMap["default"] : null;
     }
-
 }
