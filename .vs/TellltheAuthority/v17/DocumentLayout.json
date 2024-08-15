@@ -3,32 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Elegetic\\TellltheAuthority\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|c:\\users\\elegetic\\tellltheauthority\\assets\\scripts\\gamesystem\\settingsystem\\settingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesystem\\settingsystem\\settingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|c:\\users\\elegetic\\tellltheauthority\\assets\\scripts\\gamesystem\\settingsystem\\settingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesystem\\settingsystem\\settingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|c:\\users\\elegetic\\tellltheauthority\\assets\\scripts\\gamesystem\\settingsystem\\settinginitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesystem\\settingsystem\\settinginitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|C:\\Users\\Elegetic\\TellltheAuthority\\assets\\scripts\\gamesystem\\ingamesystem\\reportsystem\\reportsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesystem\\ingamesystem\\reportsystem\\reportsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|c:\\users\\elegetic\\tellltheauthority\\assets\\scripts\\gamesystem\\localizationsystem\\localizationsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesystem\\localizationsystem\\localizationsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|C:\\Users\\Elegetic\\TellltheAuthority\\assets\\scripts\\gamesystem\\ingamesystem\\canvascontroller\\endscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesystem\\ingamesystem\\canvascontroller\\endscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|c:\\users\\elegetic\\tellltheauthority\\assets\\scripts\\gamesystem\\ingamesystem\\reportsystem\\npceditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesystem\\ingamesystem\\reportsystem\\npceditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|c:\\users\\elegetic\\tellltheauthority\\assets\\scripts\\gamesystem\\ingamesystem\\reportsystem\\npcinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesystem\\ingamesystem\\reportsystem\\npcinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|C:\\Users\\Elegetic\\TellltheAuthority\\assets\\scripts\\gamesystem\\ingamesystem\\scoresystem\\scoredisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesystem\\ingamesystem\\scoresystem\\scoredisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|C:\\Users\\Elegetic\\TellltheAuthority\\assets\\scripts\\gamesystem\\levelsystem\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesystem\\levelsystem\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|C:\\Users\\Elegetic\\TellltheAuthority\\assets\\scripts\\gamesystem\\localizationsystem\\localizedtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesystem\\localizationsystem\\localizedtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|C:\\Users\\Elegetic\\TellltheAuthority\\assets\\scripts\\gamesystem\\ingamesystem\\reportsystem\\agencysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesystem\\ingamesystem\\reportsystem\\agencysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|C:\\Users\\Elegetic\\TellltheAuthority\\assets\\scripts\\gamesystem\\localizationsystem\\localizationsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesystem\\localizationsystem\\localizationsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Material\\3D\\Material\\NPC\\Illegal\\SingleSidedTransparent.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Material\\3D\\Material\\NPC\\Illegal\\SingleSidedTransparent.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Material\\3D\\Material\\NPC\\Illegal\\DoubleSidedTransparent.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Material\\3D\\Material\\NPC\\Illegal\\DoubleSidedTransparent.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|C:\\Users\\Elegetic\\TellltheAuthority\\assets\\scripts\\gamesystem\\ingamesystem\\reportsystem\\carmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesystem\\ingamesystem\\reportsystem\\carmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\AchievementSystem\\Achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameSystem\\AchievementSystem\\Achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,95 +58,152 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LocalizationSystem.cs",
-              "DocumentMoniker": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\LocalizationSystem\\LocalizationSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSystem\\LocalizationSystem\\LocalizationSystem.cs",
-              "ToolTip": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\LocalizationSystem\\LocalizationSystem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameSystem\\LocalizationSystem\\LocalizationSystem.cs",
-              "ViewState": "AQIAAHAAAAAAAAAAAAAawIMAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T06:27:16.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "NPCEditor.cs",
-              "DocumentMoniker": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\NPCEditor.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\NPCEditor.cs",
-              "ToolTip": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\NPCEditor.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\NPCEditor.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwDgAAAAAAAAA",
+              "Title": "SettingInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\SettingSystem\\SettingInitializer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSystem\\SettingSystem\\SettingInitializer.cs",
+              "ToolTip": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\SettingSystem\\SettingInitializer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameSystem\\SettingSystem\\SettingInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T06:11:39.278Z",
+              "WhenOpened": "2024-08-15T18:07:11.875Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ScoreDisplay.cs",
-              "DocumentMoniker": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\InGameSystem\\ScoreSystem\\ScoreDisplay.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSystem\\InGameSystem\\ScoreSystem\\ScoreDisplay.cs",
-              "ToolTip": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\InGameSystem\\ScoreSystem\\ScoreDisplay.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameSystem\\InGameSystem\\ScoreSystem\\ScoreDisplay.cs",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAowDAAAAANAAAA",
+              "DocumentIndex": 1,
+              "Title": "SettingSystem.cs",
+              "DocumentMoniker": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\SettingSystem\\SettingSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSystem\\SettingSystem\\SettingSystem.cs",
+              "ToolTip": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\SettingSystem\\SettingSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameSystem\\SettingSystem\\SettingSystem.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T03:39:37.77Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LocalizedText.cs",
-              "DocumentMoniker": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\LocalizationSystem\\LocalizedText.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSystem\\LocalizationSystem\\LocalizedText.cs",
-              "ToolTip": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\LocalizationSystem\\LocalizedText.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameSystem\\LocalizationSystem\\LocalizedText.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T03:00:49.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NPCInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\NPCInfo.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\NPCInfo.cs",
-              "ToolTip": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\NPCInfo.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\NPCInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T19:00:21.115Z",
+              "WhenOpened": "2024-08-15T17:57:34.34Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SettingController.cs",
+              "DocumentMoniker": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\SettingSystem\\SettingController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSystem\\SettingSystem\\SettingController.cs",
+              "ToolTip": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\SettingSystem\\SettingController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameSystem\\SettingSystem\\SettingController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAUwEYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T17:49:43.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LocalizationSystem.cs",
+              "DocumentMoniker": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\LocalizationSystem\\LocalizationSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSystem\\LocalizationSystem\\LocalizationSystem.cs",
+              "ToolTip": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\LocalizationSystem\\LocalizationSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameSystem\\LocalizationSystem\\LocalizationSystem.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAkwDUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T11:57:45.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LocalizedText.cs",
+              "DocumentMoniker": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\LocalizationSystem\\LocalizedText.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSystem\\LocalizationSystem\\LocalizedText.cs",
+              "ToolTip": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\LocalizationSystem\\LocalizedText.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameSystem\\LocalizationSystem\\LocalizedText.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T11:57:29.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ReportSystem.cs",
               "DocumentMoniker": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\ReportSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\ReportSystem.cs",
               "ToolTip": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\ReportSystem.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\ReportSystem.cs",
-              "ViewState": "AQIAAKQAAAAAAAAAAAAiwJQAAAA7AAAA",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T13:48:54.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T09:45:51.753Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AgencySystem.cs",
-              "DocumentMoniker": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\AgencySystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\AgencySystem.cs",
-              "ToolTip": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\AgencySystem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\AgencySystem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "DocumentIndex": 5,
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\LevelSystem\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSystem\\LevelSystem\\LevelManager.cs",
+              "ToolTip": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\LevelSystem\\LevelManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameSystem\\LevelSystem\\LevelManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T13:48:25.348Z"
+              "WhenOpened": "2024-08-14T03:06:29.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EndSceneManager.cs",
+              "DocumentMoniker": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\InGameSystem\\CanvasController\\EndSceneManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSystem\\InGameSystem\\CanvasController\\EndSceneManager.cs",
+              "ToolTip": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\InGameSystem\\CanvasController\\EndSceneManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameSystem\\InGameSystem\\CanvasController\\EndSceneManager.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T02:48:54.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Achievement.cs",
+              "DocumentMoniker": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\AchievementSystem\\Achievement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSystem\\AchievementSystem\\Achievement.cs",
+              "ToolTip": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\AchievementSystem\\Achievement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameSystem\\AchievementSystem\\Achievement.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T15:46:47.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SingleSidedTransparent.shader",
+              "DocumentMoniker": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Material\\3D\\Material\\NPC\\Illegal\\SingleSidedTransparent.shader",
+              "RelativeDocumentMoniker": "Assets\\Material\\3D\\Material\\NPC\\Illegal\\SingleSidedTransparent.shader",
+              "ToolTip": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Material\\3D\\Material\\NPC\\Illegal\\SingleSidedTransparent.shader",
+              "RelativeToolTip": "Assets\\Material\\3D\\Material\\NPC\\Illegal\\SingleSidedTransparent.shader",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2024-08-14T02:15:26.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CarMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\CarMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\CarMovement.cs",
+              "ToolTip": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\CarMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\CarMovement.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T02:09:32.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DoubleSidedTransparent.shader",
+              "DocumentMoniker": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Material\\3D\\Material\\NPC\\Illegal\\DoubleSidedTransparent.shader",
+              "RelativeDocumentMoniker": "Assets\\Material\\3D\\Material\\NPC\\Illegal\\DoubleSidedTransparent.shader",
+              "ToolTip": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Material\\3D\\Material\\NPC\\Illegal\\DoubleSidedTransparent.shader",
+              "RelativeToolTip": "Assets\\Material\\3D\\Material\\NPC\\Illegal\\DoubleSidedTransparent.shader",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2024-08-14T01:36:34.139Z"
             }
           ]
         }

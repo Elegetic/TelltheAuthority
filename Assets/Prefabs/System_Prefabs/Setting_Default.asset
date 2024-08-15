@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: Setting_Default
   m_EditorClassIdentifier: 
   Flags: 0101
-  Volume: 0100000001000000
+  Volume:
+  - 1
+  - 1

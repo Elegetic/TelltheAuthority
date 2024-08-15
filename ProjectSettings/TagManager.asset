@@ -9,6 +9,8 @@ TagManager:
   - NPC
   - Environment
   - EndPoint
+  - IllegalNPC
+  - LegalNPC
   layers:
   - Default
   - TransparentFX

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829e202b1213855458c3de82e594f386, type: 3}
+  m_Name: Achievement
+  m_EditorClassIdentifier: 
+  achievements:
+  - achievementName: PERFECT CITY
+    description: GET ALL REPORTS CORRECT IN LEVEL 1
+    isUnlocked: 0
+    requiredScore: 12
+  - achievementName: PERFECT RAINFOREST
+    description: GET ALL REPORTS CORRECT IN LEVEL 2
+    isUnlocked: 0
+    requiredScore: 17
+  - achievementName: PERFECT HARBOUR
+    description: GET ALL REPORTS CORRECT IN LEVEL 3
+    isUnlocked: 0
+    requiredScore: 20
+  - achievementName: PERFECT TOWN
+    description: GET ALL REPORTS CORRECT IN LEVEL 4
+    isUnlocked: 0
+    requiredScore: 17
+  - achievementName: PERFECT COUNTRYSIDE
+    description: GET ALL REPORTS CORRECT IN LEVEL 5
+    isUnlocked: 0
+    requiredScore: 10
+  totalAchievement:
+    achievementName: 'ALL PERFECT! '
+    description: GET ALL REPORTS CORRECT IN THE GAME
+    isUnlocked: 0
+    requiredScore: 76

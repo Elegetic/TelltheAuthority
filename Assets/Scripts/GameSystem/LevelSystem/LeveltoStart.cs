@@ -24,12 +24,14 @@ public class LeveltoStart : MonoBehaviour
     private void OnReturnButtonClicked()
     {
         StartCoroutine(ReturnToStartScene());
+        SceneManager.LoadScene(0);
     }
 
     private void OnQuitButtonClicked()
     {
         ResetCurrentLevelScore();
         StartCoroutine(ReturnToStartScene());
+        SceneManager.LoadScene(0);
     }
 
     private void ResetCurrentLevelScore()
@@ -67,7 +69,6 @@ public class LeveltoStart : MonoBehaviour
             //Debug.Log("Animator Played! ");
 
             Time.timeScale = 1;
-            SceneManager.LoadScene(0);
         }
         else
         {

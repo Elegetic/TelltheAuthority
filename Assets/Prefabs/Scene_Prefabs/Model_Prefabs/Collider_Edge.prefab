@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2569322198439865755}
   - component: {fileID: 4327445201707135714}
   - component: {fileID: 6049657427071219952}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Collider_Edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}

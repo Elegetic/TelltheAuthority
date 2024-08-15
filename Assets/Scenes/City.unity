@@ -147,7 +147,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4150720612855172753, guid: 20ee85adcc021244986f40fb0e7f4b2d, type: 3}
 --- !u!1 &107545852
@@ -747,6 +747,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -4787469871753995543, guid: 20ee85adcc021244986f40fb0e7f4b2d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 985444519}
+    - targetCorrespondingSourceObject: {fileID: -4787469871753995543, guid: 20ee85adcc021244986f40fb0e7f4b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 985444523}
     - targetCorrespondingSourceObject: {fileID: -5680911179564186007, guid: 20ee85adcc021244986f40fb0e7f4b2d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 936153145}
@@ -1187,7 +1190,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 915323184}
+    m_TransformParent: {fileID: 1452086610}
     m_Modifications:
     - target: {fileID: 1062883734454853943, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
       propertyPath: m_IsActive
@@ -1201,6 +1204,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SampleCube_NPC (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1991782234800038930, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
+      propertyPath: m_TagString
+      value: IllegalNPC
+      objectReference: {fileID: 0}
     - target: {fileID: 3619889836384444210, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
       propertyPath: reportAgency.Array.data[0]
       value: Fire and Rescue Department
@@ -1211,7 +1218,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 29d4cfa3f093d1448b5f510a6d10049e, type: 2}
     - target: {fileID: 8571688210562537229, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.36664
+      value: 2.3666403
       objectReference: {fileID: 0}
     - target: {fileID: 8571688210562537229, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
       propertyPath: m_LocalScale.y
@@ -1378,7 +1385,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -1496,7 +1503,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -1945,7 +1952,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2063,7 +2070,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2208,7 +2215,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2326,7 +2333,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2348,6 +2355,7 @@ GameObject:
   - component: {fileID: 510496954}
   - component: {fileID: 510496953}
   - component: {fileID: 510496952}
+  - component: {fileID: 510496955}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -2405,6 +2413,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &510496955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510496951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851a307306dff8447a2a90becdebeefd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settingSystem: {fileID: 11400000, guid: a0daa6e61043267468eecce05d3f039c, type: 2}
 --- !u!4 &639413638 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 20ee85adcc021244986f40fb0e7f4b2d, type: 3}
@@ -2568,6 +2589,38 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &671180375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 671180376}
+  m_Layer: 0
+  m_Name: Legal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &671180376
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671180375}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2091758161}
+  m_Father: {fileID: 915323184}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &710557764
 GameObject:
   m_ObjectHideFlags: 0
@@ -3395,12 +3448,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 827879173}
-  - {fileID: 304396032}
-  - {fileID: 2091758161}
-  - {fileID: 1253638113}
-  - {fileID: 1415222373}
-  - {fileID: 1476659766}
+  - {fileID: 671180376}
+  - {fileID: 1452086610}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &936153142 stripped
@@ -3432,7 +3481,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8268144444701512894, guid: 20ee85adcc021244986f40fb0e7f4b2d, type: 3}
 --- !u!64 &936153145
@@ -3484,6 +3533,27 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3518970999337782665, guid: 20ee85adcc021244986f40fb0e7f4b2d, type: 3}
+--- !u!65 &985444523
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985444514}
+  m_Material: {fileID: 13400000, guid: f398a6b80d85aec44a192becbb941084, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.083527, y: 0.23781173, z: 0.18675019}
+  m_Center: {x: 3.489601, y: -0.5487774, z: 0.050135832}
 --- !u!1 &1047684377 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -674449036139524865, guid: 20ee85adcc021244986f40fb0e7f4b2d, type: 3}
@@ -3617,7 +3687,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -3735,7 +3805,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -3960,7 +4030,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -4078,7 +4148,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -4148,7 +4218,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 915323184}
+    m_TransformParent: {fileID: 1452086610}
     m_Modifications:
     - target: {fileID: 1385003719860845406, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4157,6 +4227,10 @@ PrefabInstance:
     - target: {fileID: 1991782234800038930, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
       propertyPath: m_Name
       value: SampleCube_NPC (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1991782234800038930, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
+      propertyPath: m_TagString
+      value: IllegalNPC
       objectReference: {fileID: 0}
     - target: {fileID: 3619889836384444210, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
       propertyPath: isCriminal
@@ -4343,7 +4417,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -4461,7 +4535,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -4532,7 +4606,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 915323184}
+    m_TransformParent: {fileID: 1452086610}
     m_Modifications:
     - target: {fileID: 1385003719860845406, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4541,6 +4615,10 @@ PrefabInstance:
     - target: {fileID: 1991782234800038930, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
       propertyPath: m_Name
       value: SampleCube_NPC (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1991782234800038930, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
+      propertyPath: m_TagString
+      value: IllegalNPC
       objectReference: {fileID: 0}
     - target: {fileID: 3619889836384444210, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
       propertyPath: isCriminal
@@ -4560,7 +4638,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8571688210562537229, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3.8152604
+      value: 3.8152602
       objectReference: {fileID: 0}
     - target: {fileID: 8571688210562537229, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
       propertyPath: m_LocalScale.y
@@ -4645,13 +4723,49 @@ MonoBehaviour:
   moveDirection: {x: 1, y: 0, z: 0}
   maxPosition: 33
   resetPosition: -33
+--- !u!1 &1452086609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1452086610}
+  m_Layer: 0
+  m_Name: Illegal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1452086610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452086609}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 827879173}
+  - {fileID: 304396032}
+  - {fileID: 1253638113}
+  - {fileID: 1415222373}
+  - {fileID: 1476659766}
+  m_Father: {fileID: 915323184}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1476659765
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 915323184}
+    m_TransformParent: {fileID: 1452086610}
     m_Modifications:
     - target: {fileID: 1385003719860845406, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4660,6 +4774,10 @@ PrefabInstance:
     - target: {fileID: 1991782234800038930, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
       propertyPath: m_Name
       value: SampleCube_NPC (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1991782234800038930, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
+      propertyPath: m_TagString
+      value: IllegalNPC
       objectReference: {fileID: 0}
     - target: {fileID: 3619889836384444210, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
       propertyPath: reportAgency.Array.data[0]
@@ -4834,7 +4952,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -4952,7 +5070,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -5070,7 +5188,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -5392,7 +5510,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -5510,7 +5628,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -6031,7 +6149,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -6149,7 +6267,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -6166,7 +6284,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 915323184}
+    m_TransformParent: {fileID: 671180376}
     m_Modifications:
     - target: {fileID: 1385003719860845406, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -6175,6 +6293,10 @@ PrefabInstance:
     - target: {fileID: 1991782234800038930, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
       propertyPath: m_Name
       value: SampleCube_NPC (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1991782234800038930, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
+      propertyPath: m_TagString
+      value: LegalNPC
       objectReference: {fileID: 0}
     - target: {fileID: 3619889836384444210, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
       propertyPath: isCriminal
@@ -6377,10 +6499,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4892142099379079848, guid: b763647056fe0db4fa412ec77aa52ee1, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5424490023399186940, guid: b763647056fe0db4fa412ec77aa52ee1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1134.8207
@@ -6437,7 +6555,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 915323184}
+    m_TransformParent: {fileID: 1452086610}
     m_Modifications:
     - target: {fileID: 1385003719860845406, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -6446,6 +6564,10 @@ PrefabInstance:
     - target: {fileID: 1991782234800038930, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
       propertyPath: m_Name
       value: SampleCube_NPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 1991782234800038930, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
+      propertyPath: m_TagString
+      value: IllegalNPC
       objectReference: {fileID: 0}
     - target: {fileID: 3619889836384444210, guid: 1e8e25a76833c0a40b6b08739211321a, type: 3}
       propertyPath: reportAgency.Array.data[0]

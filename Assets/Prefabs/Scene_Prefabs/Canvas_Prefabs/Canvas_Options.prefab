@@ -429,9 +429,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c35de177c13b7ba47b3fc14c5533b149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  returnButton: {fileID: 7642692888877594866}
-  quitButton: {fileID: 0}
-  levelSystem: {fileID: 0}
+  returnButton: {fileID: 0}
+  quitButton: {fileID: 7642692888877594866}
+  levelSystem: {fileID: 11400000, guid: 0f76f6945831edc4b98370441685b44f, type: 2}
   animator: {fileID: 0}
 --- !u!1 &802522217388349845
 GameObject:
@@ -572,7 +572,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.39215687, g: 0.39215687, b: 0.39215687, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -2398,7 +2398,7 @@ GameObject:
   - component: {fileID: 1287854124701115537}
   m_Layer: 0
   m_Name: Click_01
-  m_TagString: Untagged
+  m_TagString: SoundFX
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2527,7 +2527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 5690482110503528442}
-  delayTime: 0.1
+  delayTime: 0.2
 --- !u!1 &4215403811669765026
 GameObject:
   m_ObjectHideFlags: 0
@@ -2925,7 +2925,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.38993704, g: 0.38993704, b: 0.38993704, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:

@@ -97,20 +97,24 @@
   "ZH_CN": "首页"
  },
  {
-    "EN_GB": "LEVEL COMPLETED! ",
-    "ZH_CN": "关卡完成！"
+  "EN_GB": "LEVEL COMPLETED! ",
+  "ZH_CN": "关卡完成！"
  },
  {
-   "EN_GB": "CURRENT TOTAL SCORE: ",
-   "ZH_CN": "当前总分："
+  "EN_GB": "CURRENT TOTAL SCORE: ",
+  "ZH_CN": "当前总分："
  },
  {
-    "EN_GB": "RESTART LEVEL",
-    "ZH_CN": "重玩本关"
+  "EN_GB": "RESTART LEVEL",
+  "ZH_CN": "重玩本关"
  },
  {
-    "EN_GB": "BACK TO TITLE",
-    "ZH_CN": "返回标题"
+  "EN_GB": "NEXT LEVEL",
+  "ZH_CN": "下一关"
+ },
+ {
+  "EN_GB": "BACK TO TITLE",
+  "ZH_CN": "返回标题"
  },
  {
   "EN_GB": "-------------------------------------",
@@ -295,6 +299,66 @@
  {
   "EN_GB": "CURRENT TOTAL",
   "ZH_CN": "当前总分"
+ },
+ {
+  "EN_GB": "-------------------------------------",
+  "ZH_CN": "-------------------------------------"
+ },
+ {
+  "EN_GB": "ACHIEVEMENTS",
+  "ZH_CN": "成就"
+ },
+ {
+  "EN_GB": "PERFECT CITY",
+  "ZH_CN": "完美城市"
+ },
+ {
+  "EN_GB": "PERFECT RAINFOREST",
+  "ZH_CN": "完美雨林"
+ },
+ {
+  "EN_GB": "PERFECT HARBOUR",
+  "ZH_CN": "完美港湾"
+ },
+ {
+  "EN_GB": "PERFECT TOWN",
+  "ZH_CN": "完美小镇"
+ },
+ {
+  "EN_GB": "PERFECT COUNTRYSIDE",
+  "ZH_CN": "完美郊外"
+ },
+ {
+  "EN_GB": "ALL PERFECT! ",
+  "ZH_CN": "皆传！"
+ },
+ {
+  "EN_GB": "GET ALL REPORTS CORRECT IN LEVEL 1",
+  "ZH_CN": "第一关所有举报正确"
+ },
+ {
+  "EN_GB": "GET ALL REPORTS CORRECT IN LEVEL 2",
+  "ZH_CN": "第二关所有举报正确"
+ },
+ {
+  "EN_GB": "GET ALL REPORTS CORRECT IN LEVEL 3",
+  "ZH_CN": "第三关所有举报正确"
+ },
+ {
+  "EN_GB": "GET ALL REPORTS CORRECT IN LEVEL 4",
+  "ZH_CN": "第四关所有举报正确"
+ },
+ {
+  "EN_GB": "GET ALL REPORTS CORRECT IN LEVEL 5",
+  "ZH_CN": "第五关所有举报正确"
+ },
+ {
+  "EN_GB": "GET ALL REPORTS CORRECT IN THE GAME",
+  "ZH_CN": "游戏中所有举报皆正确"
+ },
+ {
+  "EN_GB": "???",
+  "ZH_CN": "？？？"
  }
 ]
 }
