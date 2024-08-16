@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Elegetic\\TellltheAuthority\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|C:\\Users\\Elegetic\\TellltheAuthority\\assets\\scripts\\gamesystem\\ingamesystem\\reportsystem\\reportsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesystem\\ingamesystem\\reportsystem\\reportsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|c:\\users\\elegetic\\tellltheauthority\\assets\\scripts\\gamesystem\\settingsystem\\settingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesystem\\settingsystem\\settingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|c:\\users\\elegetic\\tellltheauthority\\assets\\scripts\\gamesystem\\settingsystem\\settingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|C:\\Users\\Elegetic\\TellltheAuthority\\assets\\scripts\\gamesystem\\settingsystem\\settingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesystem\\settingsystem\\settingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|c:\\users\\elegetic\\tellltheauthority\\assets\\scripts\\gamesystem\\settingsystem\\settinginitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|C:\\Users\\Elegetic\\TellltheAuthority\\assets\\scripts\\gamesystem\\settingsystem\\settinginitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesystem\\settingsystem\\settinginitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|C:\\Users\\Elegetic\\TellltheAuthority\\assets\\scripts\\gamesystem\\ingamesystem\\reportsystem\\reportsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesystem\\ingamesystem\\reportsystem\\reportsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD5D8252-64B7-2748-19F1-40A288939B33}|Assembly-CSharp.csproj|C:\\Users\\Elegetic\\TellltheAuthority\\assets\\scripts\\gamesystem\\ingamesystem\\canvascontroller\\endscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SettingInitializer.cs",
               "DocumentMoniker": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\SettingSystem\\SettingInitializer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameSystem\\SettingSystem\\SettingInitializer.cs",
@@ -70,12 +70,11 @@
               "RelativeToolTip": "Assets\\Scripts\\GameSystem\\SettingSystem\\SettingInitializer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T18:07:11.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T18:07:11.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SettingSystem.cs",
               "DocumentMoniker": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\SettingSystem\\SettingSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameSystem\\SettingSystem\\SettingSystem.cs",
@@ -83,12 +82,11 @@
               "RelativeToolTip": "Assets\\Scripts\\GameSystem\\SettingSystem\\SettingSystem.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwBwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T17:57:34.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T17:57:34.34Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SettingController.cs",
               "DocumentMoniker": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\SettingSystem\\SettingController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameSystem\\SettingSystem\\SettingController.cs",
@@ -125,15 +123,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ReportSystem.cs",
               "DocumentMoniker": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\ReportSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\ReportSystem.cs",
               "ToolTip": "C:\\Users\\Elegetic\\TellltheAuthority\\Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\ReportSystem.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameSystem\\InGameSystem\\ReportSystem\\ReportSystem.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwCwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAPwAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T09:45:51.753Z"
+              "WhenOpened": "2024-08-14T09:45:51.753Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
